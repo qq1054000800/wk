@@ -1,0 +1,48 @@
+#data_search{
+	.wrapper{background: #E6E0E0;}
+	/* 搜索页头部选项 */
+	.search_bar{
+				li{float: left;display: inline;font-size: 14px;
+					a{display: inline-block;padding: 0 20px;color: #676362;font-weight: normal;
+						&:hover{color: #2F2D2E;}
+						&.selected{color: #2F2D2E;font-weight: bold;}
+						}
+
+					}
+
+				}
+	/* 搜索框 */
+	.data_search{border: 2px solid #EC7475;position: relative;z-index: 1;display: inline-block;width: 490px;margin: 5px 0 10px 20px;height: 41px;line-height: 41px;
+					font-size: 14px;
+					input{width: 380px;height: 38px;line-height: 38px;border:none;position: absolute;z-index: 1;left: 0;top:2px;
+							#ie6 &{height: 25px;line-height: 25px;}
+							}
+					a.search_button{display: inline-block;width: 100px;text-align: center;color: #fff;font-weight: bold;height: 41px;line-height: 41px;position: absolute;z-index: 10;bottom:0;right: 0;background: #EB7575;
+									#ie6 &{bottom: -1px;}
+									}
+					}	
+	/* 搜索内容头部 */
+	.search_content_header{padding: 20px 20px 10px 20px;border-bottom: 2px solid #FCF8F7; color: #6A6667;}		
+	/* 列表头部 */
+	.rel_header{font-size: 14px;color: #353132;
+				strong{font-weight: bold;}
+				}	
+	.goods_list{
+					li{
+						.list_van{
+									a{
+										img{width: 100px;height: 100px;
+												
+											}
+										}
+								  }
+					}
+				}
+	.care_list{
+					li{padding: 10px 5px;
+						.list_body{width: 140px;padding-left: 5px;color: #666;
+									img{vertical-align: middle;}
+								  }
+					}
+				}						
+}

@@ -1,0 +1,249 @@
+
+
+/*案例列表*/
+#case{
+	.case{min-height:500px; 
+		#ie6 &{height: ~'expression(this.scorllHeight < 500 ? "500px" : "auto" )';}
+	}
+	.box.case_box{background:#fff;border:1px solid #ccc;box-shadow:0 0 5px rgba(0, 0, 0, 0.2);float: left;height: auto;}
+	.case_box{margin:0 5px 10px;width:208px;padding:10px;overflow: hidden;}
+		.case_con{ line-height:25px;  
+					img{display:block; width:208px; background:#fff; height:auto; overflow:hidden;}
+				}
+			
+				.img_title{ line-height:25px;}
+						a.case_name{ font-size:14px; font-weight:bold; float:left; }
+							
+}
+
+
+/* 交易市场页面样式 */
+
+	/* 公共样式 */
+		/* 左边头像 右边内容 */
+		.common_van{float: left;width: 50px;height: 50px;overflow: hidden;
+					img.pic_small{width: 50px;height:50px;padding: 0;border:none;}
+					}
+		.common_detail{float: left;padding-left: 10px;}			
+	/* 交易市场首页布局 */
+	.mark_left{float: left;width: 210px;background: #FADDD7;min-height: 300px;padding: 10px 0;display: inline-block;overflow: hidden;}
+	.mark_right{float: left;width: 750px;background: #FFFBFA;display: inline-block;}
+	.mark_bg {background:  url(../img/center/mark_bg.gif) left top repeat-y;}
+	/*首页左边搜索框 */
+	.mark_left{
+				.search_box{position: relative;z-index: 1;display: block;margin: 0 5px;
+							.search_input{width: 187px;}
+							.search_button{position: absolute;z-index: 10;right: 10px;top:0;
+											#ie7 &,#ie6 &{top:5px;}
+											}
+							}
+			}
+	/* 分类搜索 */
+	.mark_sort{padding: 10px 0;color: #827D7A;font-size: 14px;
+				.sort_header{
+									li{float: left;display: inline;padding: 0 4px;
+										a{display: inline-block;color: #827D7A;padding: 0 3px;
+											&.selected,
+											&:hover{background: #FE655F;color: #fff;}
+											}
+										}
+								}
+				.sort_detail{border-bottom: 1px solid #CAB1AC;padding: 15px 0 30px 0;
+							.sort_select{float: left;width: 40px;text-align: center;
+											li{font-size: 14px;border-bottom: 1px solid #fff;
+												a{display: block;background: #FADDD7;border-left: 5px solid #FADDD7;color: #6A6665;padding: 5px ;line-height: 18px;
+													&.selected{border-left: 5px solid #FF676A;background: #FFFBFA;}
+													}
+											}
+										}
+							.sort_area{float: left;width: 168px;background: #FFFBFA;padding-bottom: 20px;border: 1px solid #F1D6D5;
+										 li{font-size: 14px;
+										 	a{
+										 		display: block;background:  #FFFBFA;padding-left: 50px;color: #6C6A69;height: 35px;line-height: 35px;
+										 		&.selected,
+										 		&:hover{background:#FEDCDB url(../img/center/arrow_right_bg.gif) top right  no-repeat;}
+										 	}
+										 }
+										}			
+							}				
+				}		
+	/* 加入交易市场 */
+	.mark_join{padding: 10px 20px;color: #5D695D;
+				.join_header{
+								a.button{background: #EE7379;font-size: 14px;color: #fff;font-weight: bold;display: block;text-shadow:none;text-align: center;padding: 10px 0;}
+								}
+				.join_detail{padding-top: 20px;
+								.mark_van{float: left;width: 60px;height: 60px;position: relative;z-index: 1;
+								
+										img.pic_small{border: none;padding: 0;width: 60px;height: 60px;}
+										.mark_bottom{text-align: center;font-weight: bold;color: #fff;background: rgba(0,0,0,0.8);display: block;bottom: 0;position: absolute;z-index: 10;width: 100%;line-height: 20px;left: 0;
+													
+													 filter:~'progid:DXImageTransform.Microsoft.gradient(startColorstr=#aa000000,endColorstr=#aa000000)'; zoom: 1;
+													}
+										
+										}
+								.mark_button{float: left;width: 95px;padding-left: 10px;
+											a{margin-bottom: 10px;}
+											}
+										
+							}				
+				}
+	/* 紫色关注和绿色发短信按钮 */
+	a{
+		&.purple_add,
+		&.green_letter,
+		&.org_apply{display: inline-block;padding: 0 5px;color: #fff !important;font-weight: bold;text-align: center;}
+		&.purple_add{background: #7E5DAC;}
+		&.green_letter{background: #82BF71;}
+		&.org_apply{background: #E9883A;color: #34363B !important;}
+	}
+
+
+	/* 交易首页右边样式 */
+	/* 右边头部样式 */
+	.mark_show {
+					li{float: left;display: inline;width: 125px;height: 125px;overflow: hidden;position:relative;z-index: 1;
+						background: #C8344C;
+							a{color: #fff !important;font-size: 16px;font-weight: bold;display: inline-block;width: 125px;height: 125px;
+
+								span.left_po{position:absolute;z-index: 10;top:50px;left: 50px;}
+								img.pic_middle{width: 125px;height: 125px;overflow: hidden;}
+								.purple_button,
+								.mark_show_bottom{text-align: center;color: #fff;position: absolute;z-index: 10;font-size: 12px;font-weight: normal;line-height: 20px;visibility: hidden;}
+								.purple_button{display: inline-block;background: #7C5FAF;padding: 0 5px;right: 0;top: 0;}
+								.mark_show_bottom{background: rgba(0,0,0,0.8);display: block;bottom: 0;width: 100%;left: 0;
+												 filter:~'progid:DXImageTransform.Microsoft.gradient(startColorstr=#aa000000,endColorstr=#aa000000)'; zoom: 1;
+											}
+								&:hover,
+								.hover{
+										.purple_button,
+										.mark_show_bottom{visibility: visible;}
+										}
+								&.small{width: 105px;overflow: hidden;
+										span.left_po{left: 33px;}
+										img.pic_middle{width: 105px;}
+										}						
+								}
+							&.small{width: 105px;overflow: hidden;}	
+
+					}
+				}
+	/* 右边内容布局框 */
+	.mark_right_contant{background: #FFFBFA;padding: 20px 5px 20px 10px;}	
+	.mark_box_left{float: left;width: 530px;padding-right: 10px;}
+	.mark_box_right{float: left;width: 195px;}		
+	/* 标题 */
+	.mark_title{padding-bottom: 10px;border-bottom: 2px solid #676564;
+					h3{display: inline-block;font-size: 18px;color: #333132;font-weight: normal;}
+				}	
+	.mark_box_title{padding: 5px;background: #F5F5F7;margin: 10px 0;
+					h3{display: inline-block;font-size: 16px;color: #2F2F31;font-weight: normal;}
+					}					
+	/* top排行榜 */
+	.top_ranking{}	
+
+	/* 热门需求 */
+	.rank_hot{
+				.rank_hot_detail{
+									li{padding: 5px 0;color: #646263;border-bottom: 1px dashed #D3CFCE;
+										.common_van{width: 70px;height: 70px;
+													img.pic_small{width: 70px;height: 70px;}
+													}
+										.common_detail{width: 450px;
+											.rank_hot_info{height: 44px;overflow: hidden;line-height: 22px;}
+														}
+										}
+								}
+			}	
+	/* 影响力排行 */
+	.rank_influce{margin: 10px 0;
+					.influce_header{border-bottom: 2px solid #EC7473;
+									li{float: left;display: inline;width: 49%;font-size: 14px;
+											a{display: block;text-align: center;color: #C2525E;
+												&.selected{background:#F5777A;color: #fff; }
+											}
+										}
+									}
+					.influce_detail{background: #F4F4F4;padding: 5px;
+										li{padding-bottom: 10px;
+											.rank_num{text-align: center;background: #666;color: #fff;float: left;display: inline-block;width: 20px;height: 20px;font-size: bold;line-height: 20px;margin-right: 10px;}
+											.rank_num.rank_top{background: #C9334C;}
+											.common_detail{width: 85px;
+															a{color: #818181;width: 85px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;height: 25px;display: inline-block;}
+															}
+											}
+									}				
+				}	
+	/* 优惠信息 */
+	.special_offers{
+					.offers_detail{
+									li{padding: 5px 0;color: #646263;border-bottom: 1px dashed #D3CFCE;word-wrap:break-word;
+										.offer_title{line-height: 25px;font-size: 14px;height: 25px;
+													a{color: #0B6BC3;display: inline-block;width: 530px;overflow: hidden;height: 25px;text-overflow:ellipsis;white-space: nowrap;}
+													}
+										}
+									}
+					}	
+	/* 最新动态 */
+	.recent_news{margin-top: 10px;
+					background: #F4F4F4;color: #646464;padding: 10px;
+					dt{font-size: 18px;color: #343434;padding-bottom: 10px;}
+					dd{display: inline-block;white-space: nowrap;text-overflow:ellipsis;width: 175px;height: 25px;overflow: hidden;
+						#ie7 &,#ie6 &{height: 30px;line-height: 30px;}
+						span{color: #CC2F54;}
+					}
+				}	
+	/* 热门分类 */
+	.top_cate{padding: 10px 0;
+				.cate_box{float: left;width: 235px;
+							li{float: left;display: inline;margin-bottom: 5px;
+									a{display: block;width: 75px;height: 85px;overflow: hidden;position: relative;z-index: 1;
+										img.pic_small{padding: 0;border: none;width: 75px;height: 85px;}
+										.van_info{background: rgba(0,0,0,0.6);color: #fff;font-size: 14px;font-weight: bold;position: absolute;z-index: 10;bottom: 0;left: 0;width: 75px;text-align: center;line-height: 20px;height: 20px;overflow: hidden;
+													white-space: nowrap;text-overflow:ellipsis;
+													 filter:~'progid:DXImageTransform.Microsoft.gradient(startColorstr=#aa000000,endColorstr=#aa000000)'; zoom: 1;		
+												}
+									}
+								}
+						}
+			}										
+/* 交易市场列表页样式 */
+.market_sort{padding: 10px 0;background: #FFFBFA;}	
+.market_sort_header{font-size: 16px;color: #2E2C2D;padding-bottom: 10px;border-bottom: 2px solid #F4F4F4;padding: 10px;}						
+/* 查看方式 */
+.look_method{color: #676566;font-size: 14px;padding: 0 20px;
+				dt,dd{float: left;display: inline;}
+					dd{
+						a{display: inline-block;padding: 0 10px;color: #676566 !important;}
+					}
+
+				}
+/* 列表 */
+.market_list{margin: 10px 0;
+			li{float: left;display: inline;color: #7F7F7F;width: 185px;overflow: hidden;margin-right: 5px;margin-bottom: 10px;
+			
+				.market_van{width: 185px;height: 160px;display: block;overflow: hidden;position: relative;z-index: 1;
+							img.pic_larger{padding: 0;border: none;display: block;width: 185px;height: 160px;}
+							a.purple_add{position: absolute;z-index: 10;top: 0;right: 0;visibility: hidden;}
+							&:hover,
+							&.hover{
+										a.purple_add{visibility: visible;}
+									}
+							}
+				.market_down{padding: 5px;background:#F6F6F6; }			
+				.market_title{font-size: 14px;
+								a{color: #D22E51;display: inline-block;width:170px ;height: 25px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;
+								}
+							}	
+				.market_info{height: 50px;overflow: hidden;
+								a{color: #2479D6;}
+							}
+				.market_address{color: #A7A7A7;}
+				.market_button{padding-top: 5px;
+									a{font-weight: normal;
+										&.green_letter{background: #83BD71;color: #383934 !important;}
+									}
+								}								
+				}
+			}				
+							

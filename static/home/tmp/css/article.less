@@ -1,0 +1,39 @@
+#article{
+/**
+	资讯中心
+*/
+
+.news_list h3.news_title{ font:bold 22px Microsoft YaHei ;}
+.news_list,.normal1{ background-color:#fff}
+.news_list{
+			img{ border:1px solid #ccc}
+			.item{ 
+					padding:30px; border-bottom:1px solid #eee; box-shadow:0 1px 2px rgba(0,0,0,0.1);
+					.news_img{ float: left; width: 150px; padding-right:10px; }
+				}
+		}
+.news_detail{padding:30px ;
+			 h1{font:bold 22px Microsoft YaHei ;}
+			}
+
+.news_content{color:#333;overflow:hidden;
+				img{ max-width:100%;}
+			}
+#ie6 .news_content img{width:100%;}
+.news_sort{
+			li{
+				a{ margin-left:20px;
+				  .icon16{ float:none;}
+				 }
+				&.selected{ background:#eee;} 
+				&.second_sort a{ margin-left:0; line-height:20px;
+								&.minus,&.plus{ margin-left:4px;}
+								}
+				.news_secondMenu a{ display:block; margin-left:5px}	
+				&.second_sort{ clear:both;}			
+			 }
+		}
+.news_secondMenu{ border-left:2px solid #ccc; margin-left:20px}
+.ico{height:16px;width:16px;line-height:15px;float:left;overflow:hidden;font-size:12px;vertical-align:middle; margin-top:5px;}
+
+}

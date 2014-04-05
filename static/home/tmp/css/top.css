@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-3-18, 15:29:51
+    Author     : Administrator
+*/
+.con-liuccx2{
+	height:157px;
+	color: #333;
+	clear: both;
+	float: left;
+	width: 948px;
+	background-image: url(../image/liuc2.jpg);
+	background-repeat: no-repeat;
+}
+.con-liuccx2 h2{
+	text-decoration:none;
+	font-size:14px;
+	color:#000;
+	margin-top: 10px;
+	font-weight: bold;
+	float: left;
+	width: 60%;
+        margin-bottom: 0;
+}
+.con-liucbuttoncx2{
+	height:135px;
+	float: left;
+	width: auto;
+	margin-left: 3px;
+	background-repeat: no-repeat;
+}
+
+.con-liucbuttomcx2{
+	height:48px;
+	color: #333;
+	clear: none;
+	float: left;
+	width: 155px;
+	background-image: url(../image/index1_r19_c35.jpg);
+	margin-bottom: 6px;
+	background-repeat: no-repeat;
+	margin-top: 21px;
+}
+
+
+.con-liucbuttomcx2 .prev2 {
+	TEXT-INDENT: -9999px;
+	WIDTH: 155px;
+	DISPLAY: block;
+	FLOAT: left;
+	HEIGHT: 48px;
+	clear: none;
+	background-image: url(../image/index1_r19_c35.jpg);
+	background-position: center top;
+}
+
+.con-liucbuttomcx2 .prev2:hover {
+	BACKGROUND-POSITION: 0% 100%;
+}
+.con-liucbuttom2cx2{
+	height:48px;
+	color: #333;
+	clear: both;
+	float: left;
+	width: 155px;
+	background-image: url(../image/index1_r23_c35.jpg);
+	background-repeat: no-repeat;
+}
+
+
+.con-liucbuttom2cx2 .prev2 {
+	TEXT-INDENT: -9999px;
+	WIDTH: 155px;
+	DISPLAY: block;
+	FLOAT: left;
+	HEIGHT: 48px;
+	clear: none;
+	background-image: url(../image/index1_r23_c35.jpg);
+	background-position: center top;
+}
+
+.con-liucbuttom2cx2 .prev2:hover {
+	BACKGROUND-POSITION: 0% 100%;
+}
+.gsggaocentercx2{
+	float: left;
+	width: 273px;
+	clear: none;
+	height: 132px;
+	margin-top: 2px;
+/*	margin-left: 10px;*/
+	background-image: url(../image/index1_r26_c8.jpg);
+	background-repeat: no-repeat;
+	text-indent: 20px;
+}
+.gsggaocenter_phcx2{
+	float: left;
+	padding-top: 2px;
+	text-indent: 0px;
+	margin-left: 15px;
+	}	
+.gsggaocenter_phcx2 li{
+	list-style:none;
+	height:20px;
+	width:230px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #D5D5D5;
+	line-height: 20px;
+	padding-top: 2px;
+	clear: both;
+	float: left;
+	}	
+	
+.gsggaocenter_phcx2 a:link{font-size: 12px;}
+.zqlc{
+	font-size: 12px;
+	background-image: url(../image/liuc1_4.jpg);
+	background-repeat: repeat-x;
+	clear: none;
+	float: left;
+	height: 32px;
+	width: 505px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C8C8C8;
+}
+.zqlcredline{
+	font-size: 13px;
+	background-image: url(../image/liuc1.jpg);
+	background-repeat: repeat-x;
+	clear: none;
+	float: left;
+	height: 32px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #C61800;
+	line-height: 32px;
+	color: #FFF;
+	text-align: center;
+	padding-right: 13px;
+	padding-left: 13px;
+}
+.zqlcredline2{
+	font-size: 13px;
+	background-repeat: repeat-x;
+	clear: none;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	color: #333;
+	text-align: center;
+	padding-right: 11px;
+	padding-left: 12px;
+}
+.zqlcredlinejt{
+	clear: none;
+	float: left;
+	height: 32px;
+}
+.con-liucbuttoncxline{
+	height:125px;
+	float: left;
+	width: 508px;
+	margin-left: 6px;
+	margin-bottom: 0px;
+	line-height: 18px;
+}

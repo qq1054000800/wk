@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-3-13, 14:48:42
+    Author     : Administrator
+*/
+
+#prom .inner {
+  border: 1px solid #fff;
+}
+#prom .backLava {
+  border-bottom: 2px solid #c00;
+}
+#prom .simple_step {
+  margin-bottom: 10px;
+  clear: both;
+  border: 1px solid #5d82cf;
+  font-family: "Î¢ÈíÑÅºÚ";
+  height: 53px;
+  background: #486db0 url(../img/style/step_bg4.png) repeat-x;
+  color: #fff;
+  font-size: 14px;
+}
+#prom .simple_step .step {
+  float: left;
+  white-space: nowrap;
+  line-height: 53px;
+  text-align: center;
+}
+#ie6 #prom .simple_step .step {
+  color: #fff;
+}
+#prom .simple_step .step strong {
+  color: #333;
+  display: block;
+  font-weight: bolder;
+  font-size: 16px;
+  font-style: normal;
+  height: 55px;
+  line-height: 55px;
+  margin-left: -21px;
+  padding-left: 21px;
+}
+#prom .simple_step .step2,
+#prom .simple_step .step3,
+#prom .simple_step .step4 {
+  width: 25%;
+}
+#prom .simple_step .step1 {
+  background: url(../img/style/step1_bg.png) no-repeat left top;
+  width: 136px;
+  height: 53px;
+}
+#prom .simple_step .step2 {
+  background: #6fa0dd url(../img/style/step_bg2.png) repeat-x;
+}
+#prom .simple_step .step3 {
+  background: #5c88d1 url(../img/style/step_bg3.png) repeat-x;
+}
+#prom .simple_step .step4 {
+  background: #486db0 url(../img/style/step_bg4.png) repeat-x;
+}
+#prom .get_code {
+  background: url(../img/style/step2_bg.png) no-repeat right top;
+}
+#prom .get_sys {
+  background: url(../img/style/step3_bg.png) no-repeat right top;
+}
+#prom .prom_border {
+  border: 1px solid #ccc;
+}
+#prom .prom_border .box_header {
+  background: #F5F5F5;
+}
+#prom .prom_border .box_header h2 {
+  font-size: 14px !important;
+  margin-bottom: 0;
+}
+#prom .prom_border .box_header .title {
+  padding: 10px 0 10px 10px;
+}
+#prom .prom_detail {
+  background: #fff;
+  line-height: 25px;
+}
+#prom .prom_list ul {
+  padding: 10px 0;
+}
+#prom .prom_list ul li {
+  line-height: 30px;
+  display: inline;
+}
+#prom .prom_list ul li a {
+  color: #333;
+  display: block;
+  border-left: 5px solid #fff;
+  padding: 8px 10px;
+}
+#prom .prom_list ul li a:hover,
+#prom .prom_list ul li a.selected {
+  color: #c00;
+  background: #f7e3e4;
+  border-left: 5px solid #c00;
+}
+#prom .prom_rel ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}
+#prom .c00f {
+  color: #0000ff;
+}
